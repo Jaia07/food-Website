@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playwrite+PE:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&family=Tangerine:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.hero {
+    height: 100vh;
+    /* width: 100%; */
+    background-image: url(images-foodWebsite/alexander-mils-6HPLJLe2mX8-unsplash\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+}
+
+.li-decor {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.li-decor a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-weight: normal;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px 80px;
+    padding: 0 150px;
+}
+section article {
+    /* border: 3px solid black; */
+    /* height: 50px; */
+    text-align: center;
+}
+
+.welcome-header-style {
+    margin-bottom: 20px;
+}
+
+.welcome-style {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: italic;
+    color: #db8989;
+}
+ .welcome-picante {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 650;
+    font-style: normal; 
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.text-style {
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: darkgray;
+}
+
+.welcome-image {
+    position: relative;
+}
+.welcome-image1 {
+    height: 250px;
+    width: 200px;
+    background-image: url(images-foodWebsite/daniela-domingues-FPqFQaf8Xic-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.welcome-image2 {
+    position: absolute;
+    height: 180px;
+    width: 135px;
+    background-image: url(images-foodWebsite/ric-matkowski-T8SD7bwyxHU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    bottom: 45%;
+    left: 55%;
+}   
+
+#card-image {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.card-image1 {
+    height: 250px;
+    flex-basis: 33.5%;
+    margin: 0 5px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-image: url(images-foodWebsite/hisu-lee-bQLCyj-9-tk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-image2 {
+    height: 250px;
+    flex-basis: 33%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-image: url(images-foodWebsite/travis-yewell-OGJp-AJeIoM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.card-image3 {
+    height: 250px;
+    flex-basis: 33.5%;
+    margin: 0 5px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-image: url(images-foodWebsite/vicky-ng-diDja86YL_M-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-image1:hover {
+    transform: scale(1.05);
+    transition: transform .5s;
+}
+
+.card-image3:hover {
+    transform: scale(1.05);
+    transition: transform .5s;
+}
+
+.inner-card {
+    position: absolute;
+    height: 100px;
+    width: 205px;
+    top: 30%;
+    left: 15.5%;
+    background-color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+#recipe-text {
+    font-family: "Great Vibes", cursive;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #db8989;
+    text-decoration: underline;
+}
+
+#gallery-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    font-style: normal; 
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+
+
+
